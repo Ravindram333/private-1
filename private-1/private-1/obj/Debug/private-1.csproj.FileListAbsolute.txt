@@ -1,0 +1,11 @@
+G:\devops\private-1\private-1\private-1\bin\Debug\private-1.exe.config
+G:\devops\private-1\private-1\private-1\bin\Debug\private-1.exe
+G:\devops\private-1\private-1\private-1\bin\Debug\private-1.pdb
+G:\devops\private-1\private-1\private-1\obj\Debug\private-1.csproj.AssemblyReference.cache
+G:\devops\private-1\private-1\private-1\obj\Debug\private-1.csproj.SuggestedBindingRedirects.cache
+G:\devops\private-1\private-1\private-1\obj\Debug\private_1.Form1.resources
+G:\devops\private-1\private-1\private-1\obj\Debug\private_1.Properties.Resources.resources
+G:\devops\private-1\private-1\private-1\obj\Debug\private-1.csproj.GenerateResource.cache
+G:\devops\private-1\private-1\private-1\obj\Debug\private-1.csproj.CoreCompileInputs.cache
+G:\devops\private-1\private-1\private-1\obj\Debug\private-1.exe
+G:\devops\private-1\private-1\private-1\obj\Debug\private-1.pdb
