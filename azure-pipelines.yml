@@ -7,7 +7,12 @@ trigger:
 - main
  
 pool:
-  vmImage: 'windowds-latest'
+  name: Azure Pipelines
+  demands:
+  - msbuild
+  - visualstudio
+  - vstest
+  
 
 variables:
   solution: '**/*.sln'
