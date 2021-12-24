@@ -15,11 +15,17 @@ variables:
   buildConfiguration: 'Release'
 
 steps:
+- task: NuGetToolInstaller@1
+  inputs:
+    versionSpec: '4.4.1'
 - task: NuGetCommand@2
   inputs:
     command: 'restore'
     restoreSolution: '**/*.sln'
     feedsToUse: 'select'
+- task: VSBuild@1
+  inputs:
+    solution: '**\*.sln'
 - task: VSTest@2
   inputs:
     testSelector: 'testAssemblies'
@@ -30,7 +36,9 @@ steps:
     searchFolder: '$(System.DefaultWorkingDirectory)'
 - task: CopyFiles@2
   inputs:
-    SourceFolder: '$(Agent.TempDirectory)\TestResults'
+    SourceFolder: '''$(System.DefaultWorkingDirectory)'''
     Contents: '**'
     TargetFolder: 'G:\New folder'
--
+
+
+
