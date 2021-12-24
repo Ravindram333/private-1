@@ -30,6 +30,7 @@ steps:
     searchFolder: '$(System.DefaultWorkingDirectory)'
 - task: CopyFiles@2
   inputs:
-    SourceFolder: '''$(System.DefaultWorkingDirectory)'''
+    SourceFolder: '$(Agent.TempDirectory)\TestResults'
     Contents: '**'
-    TargetFolder: '''$(G:\New folder)'''
+    TargetFolder: 'G:\New folder'
+-
